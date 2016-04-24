@@ -11,6 +11,20 @@ We do not want this, we want the value of the **name** property inside the **alp
 
 Fix **getNameFunc** so the right value is returned.
 
+
+```
+name = 'The Window';
+
+var alpha = {
+    name : 'My Alpha',
+    getNameFunc : function() {
+        return function() {
+            return this.name;
+        };
+    }
+};
+```
+
 For more information: [Binding](http://alistapart.com/article/getoutbindingsituations)
 
 
