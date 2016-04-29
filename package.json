@@ -1,0 +1,23 @@
+{
+  "name": "anonymous-returns",
+  "version": "1.0.0",
+  "description": "Javascript kata to make function called by itself bound to correct context",
+  "main": "firstSolution.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ouadie-lahdioui/anonymous-returns.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Kata"
+  ],
+  "author": "Ouadie LAHDIOUI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ouadie-lahdioui/anonymous-returns/issues"
+  },
+  "homepage": "https://github.com/ouadie-lahdioui/anonymous-returns#readme"
+}
